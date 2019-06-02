@@ -9,7 +9,7 @@ interface Config {
     | number[]
     | boolean[]
     | {
-        [key: string]: string[] | number[] | boolean | string | number | boolean;
+        [key: string]: string[] | number[] | boolean | string | number | boolean | null;
       };
 }
 
