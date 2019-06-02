@@ -1,6 +1,6 @@
 {
   "name": "lexica-dialog-model",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MongoDB model for Lexica virtual dialog agent.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -35,5 +35,7 @@
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.5.1"
   },
-  "files": ["dist/**/*"]
+  "files": [
+    "dist/**/*"
+  ]
 }
